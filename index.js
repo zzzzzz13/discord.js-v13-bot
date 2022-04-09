@@ -30,6 +30,6 @@ client.slash = new discord.Collection();
 
 
 
-client.login(client.config.token)
+client.login(process.env.TOKEN);
 
 
